@@ -1,0 +1,166 @@
+		#card {
+			background-color:white;
+			border-radius: 8px;
+			box-shadow: 1px 2px 8px;
+			height: 800px;
+			margin-top: 10px;
+			margin-bottom: 130px;
+			margin-left: 230px;
+			width: 810px;
+		}
+		#card2 {
+			background-image:url("imagess.jpg");
+			border-radius: 8px;
+			box-shadow: 1px 2px 8px;
+			height: 200px;
+			margin-top: -140px;
+			margin-bottom: 130px;
+			margin-left: 230px;
+			width: 810px;
+		}
+		#card3 {
+			border-radius: 8px;
+			box-shadow: 1px 2px 8px;
+			height: 10px;
+			margin-top: -60px;
+			margin-button: 130px;
+			margin-left: 230px;
+			width: 810px;
+		}
+		body {
+			background-image:url("images_clear.png");
+			background-attachment:fixed;
+			background-repeat:repeat;
+			background-color:black;
+		}
+		#judul {
+			font-family: Arial, Helvetica, sans-serif;
+			letter-spacing: 2px;
+			padding-bottom: 25px;
+			padding-top: 45px;
+			
+		}
+		#judull {
+			font-family: Arial, Helvetica, sans-serif;
+			letter-spacing: 2px;
+			padding-bottom: 25px;
+			padding-top: 5px;
+		}
+
+		label {
+			font-family: "Raleway", sans-serif;
+			font-size: 11pt;
+		}
+		#Lupa_pss {
+			color: #DC143C;
+			font-family: "Raleway", sans-serif;
+			font-size: 10pt;
+			margin-top: 3px;
+		}
+		.form {
+			align-items: left;
+			display: flex;
+			flex-direction: column;
+		}
+		.form_border {
+			background: #FFEBCD;
+			height: 20px;
+			width: 90%;
+			margin-left: 40px;
+			
+		}
+		.form_underline {
+			background: #fbfbfb;
+			border: none;
+			outline: none;
+			padding-top:10px;
+		}
+		#tambah_akun {
+			color: #DC143C;
+			font-family: "Raleway", sans-serif;
+			font-size: 10pt;
+			margin-top: 16px;
+			text-align: center;
+		}
+		#button {
+			background: #FF7F50;
+			border: none;
+			border-radius: 21px;
+			color: white;
+			font-family: "Raleway SemiBold", sans-serif;
+			height: 42.3px;
+			margin: 0 auto;
+			margin-top: 1px;
+			margin-left: 610px;
+			width: 153px;
+		}
+		#button:hover {
+			background: black;
+			color: #FF7F50;
+		}
+		#navbar {
+		  overflow: hidden;
+		  z-index: 1;
+		}
+		#navbar a {
+		  
+		  float: right;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		  border-radius: 5px;
+		}
+
+		#navbar a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+
+		#navbar a.active {
+		  background-color: #4CAF50;
+		  color: white;
+		}
+		.sticky {
+		  position: fixed;
+		  background-color: #333;
+		  opacity: 0.5;
+		  top: 0;
+		  width: 100%;
+		}
+		.sticky + .konten {
+		  padding-top: 60px;
+		}
+		h2{
+			margin-top:80px;
+			color:white;
+			margin-bottom:-50px;
+			font-family:Arial, Helvetica, sans-serif;
+			padding-top: 220px;
+			font-size:40px;
+			font-weight:bold;
+		}
+		h6{
+			margin-top:-100px;
+			color:#FF7F50;
+			margin-bottom:100px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			padding-top: -20px;
+		}
+		h4{
+			margin-top:-100px;
+			color: #6495ED;
+			margin-bottom:100px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:30px;
+		}
+		p{
+			margin-top:10px;
+			color: white;
+			margin-bottom:100px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:15px;
+		}

@@ -1,0 +1,119 @@
+{
+    "intents": [
+        {
+            "tag": "greet",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Apa kabar?",
+                "Hai"
+            ],
+            "responses": [
+                "Hai! Selamat datang di PENGGU. Ada yang bisa dibantu?",
+                "Halo! Senang bertemu denganmu. Ada yang bisa PENGGU bantu?"
+            ]
+        },
+        {
+            "tag": "AnjingDiare",
+            "patterns": [
+                "Anjing muntah",
+                "Anjing nafsu makan turun, muntah dan pup lembek",
+                "Anjing nafsu makan turun, muntah dan kotoran lembek",
+                "Anjing tidak mau makan dan muntah",
+                "Anjing kotoran lembek",
+                "Anjing pup lembek",
+                "Kotoran anjingku lembek, mengalami muntah-mutah dan juga penurutan nafsu makan"
+            ],
+            "responses": [
+                "Berdasarkan gejalanya sih, kemungkinan anjingmu sedang diare. Segera diobati ya !",
+                "Kalau yang PENGGU liat, kemungkinan besar anjingmu sedang diare. Segera diobati ya!",
+                "Waduh, anjingmu terkena diare tuh! PENGGU sarankan kamu segera obati dia ya!",
+                "Anjingmu terkena diare tuh! Segera obati anjingmu agar cepat sehat dan bisa main bareng lagi!"
+            ]
+        },
+        {
+            "tag": "AnjingSakitKulit",
+            "patterns": [
+                "Kulit anjingku mengalami kemerahan",
+                "Anjingku gatal-gatal nih",
+                "Ada ruam pada kulit anjingku",
+                "Kulit anjingku mengelupas",
+                "Kulit anjingku ada merah dan sepertinya gatal"
+            ],
+            "responses": [
+                "Menurut PENGGU, anjing kamu kemungkinan besar terkena penyakit kulit. Segera obati ya!",
+                "Wah PENGGU kasihan dengan anjingmu, sepertinya dia terkena penyakit kulit deh. Segera obati ya!"
+            ]
+        },
+        {
+            "tag": "AnjingCacingan",
+            "patterns": [
+                "Berat badan anjingku menurun dan bulunya kusam. Bagaimana ya?",
+                "Sepertinya ada cacing pada kotoran anjingku",
+                "Sepertinya ada cacing di pup anjingku",
+                "Bulu anjingku kusam nih. Kenapa ya?",
+                "Perut anjingku membesar dan bulunya kusam"
+            ],
+            "responses":[
+                "Dari yang PENGGU lihat, sepertinya anjingmu sedang mengalami cacingan di area perut. Segera obati ya!"
+            ]
+        },
+        {
+            "tag": "KucingFlu",
+            "patterns": [
+                "Kucingku ingusan terus nih",
+                "Hidung kucingku terus mengeluarkan kotoran atau ingus",
+                "Mata kucingku berarir dan sering bersin juga",
+                "Sepertinya ada gangguan pada pernapasan kucingku",
+                "Kucingku sepertinya sulit bernapas dan sering ingusan",
+                "Kucingku selalu bersin dan tidak mau makan",
+                "Kucing bersin dan tidak nafsu makan"
+            ],
+            "responses":[
+                "Wah. Menurut PENGGu sih kucing kamu sedang terkena flu nih. Segera obati dia ya!"
+            ]
+        },
+        {
+            "tag": "KucingDiabetes",
+            "patterns":[
+                "Kucingku sering pipis",
+                "Kucingku sering banget buang air kecil",
+                "Kucingku hampir terus minum",
+                "Kucing terus-terusan minum",
+                "Kucingku muntah dan berat badannya turun"
+            ],
+            "responses":[
+                "Kalau analisa singkat yang PENGGU bisa berikan adalah kucingmu menunjukkan gejala diabetes. Tolong segera obati ya!"
+            ]
+        },
+        {
+            "tag": "KucingSakitMata",
+            "patterns":[
+                "Mata kucingku mengeluarkan cairan kental",
+                "Ada cairan kental keluar dari mata kucingku",
+                "Mata kucingku juling. Kenapa ya?",
+                "Mata kucingku sayu dan banyak kotorannya"
+            ],
+            "responses":[
+                "Sepertinya kucingmu sedang ada masalah di matanya. Segera beri pertolongan pertama ya!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns" : [
+                "Thankyou",
+                "Terimakasih",
+                "thx",
+                "sip thankyou",
+                "oke trimakasih",
+                "oke trimakasi",
+                "oke thx"
+            ],
+            "responses":  [
+                "Have a great day!",
+                "Wish you a good day!"
+            ]
+        }
+    ] 
+}
